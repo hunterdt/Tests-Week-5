@@ -92,12 +92,13 @@ function clamp(a, b, c) {
 // for empty elements in the array. Hint: you can use the typeof operator to see if a value
 // is equal to "number"
 
-var sumArray = 0;
-var avgArray = 0;
-var avgNum = 0;
+
 //var arrayVariable = new Array;
 
 function average(arrayVariable) {
+    var sumArray = 0;
+    var avgArray = 0;
+    var avgNum = 0;
     for (var i = 0; i <= arrayVariable.length; i++) {
         if (typeof arrayVariable[i] == 'number') {
             sumArray = sumArray + arrayVariable[i];
